@@ -85,10 +85,16 @@ button{
         grid-template-columns: 75px 75px 75px;
         grid-template-rows: 75px 75px 75px;
         gap: 5px;
+        font-size: 50px;
+        line-height: 50px;
     }
 
     h1{
         font-size: 1.5em;
         margin: 0 0 10px 0;
+    }
+    .tile{
+        font-size: 75px;
+        line-height: 75px;
     }
 }
