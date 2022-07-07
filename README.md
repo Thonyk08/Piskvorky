@@ -1,3 +1,3 @@
 # Piskvorky
 
-simple game with javascript
+a simple game made with javascript
