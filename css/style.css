@@ -69,3 +69,26 @@ button{
     border-radius: 6px;
     color: silver;
 }
+
+@media (max-width:760px){
+    .board{
+       
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        gap: 7px;
+    }
+}
+
+@media (max-width:470px){
+    .board{
+       
+        grid-template-columns: 75px 75px 75px;
+        grid-template-rows: 75px 75px 75px;
+        gap: 5px;
+    }
+
+    h1{
+        font-size: 1.5em;
+        margin: 0 0 10px 0;
+    }
+}
